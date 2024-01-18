@@ -1,0 +1,7 @@
+⍝ Set 3
+mat ← 2 3⍴nums
+wide ← mat,mat
+stack ← 4 3⍴wide
+PassFail ← {'FP'[1+40<⍵]}
+Grille ← {(,' '=⍺)/,⍵}
+MulTable ← ∘.×⍨⍳

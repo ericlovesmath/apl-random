@@ -5,3 +5,7 @@ stack ← 4 3⍴wide
 PassFail ← {'FP'[1+40<⍵]}
 Grille ← {(,' '=⍺)/,⍵}
 MulTable ← ∘.×⍨⍳
+
+⍝ Set 4
+Backwords ← ⌽¨⌽
+Join ← {⊃(⊣,⍺,⊢)/⍵}
